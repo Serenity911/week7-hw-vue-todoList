@@ -1,22 +1,41 @@
 h1 {
-  text-align: center;;
+  text-align: center;
 }
 form {
+  display: flex;
   border: solid thin;
   background-color: aliceblue;
   padding: 1rem;
+  margin: 0 15vw;
 }
 
+input {
+  margin-right: 1rem;
+  margin-left: 0.3rem;
+}
+
+#newToDo {
+  flex-grow: 10;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
 ul {
   display: flex;
   flex-direction: column;
   align-content: center;
+  padding-inline-start: 0;
+  margin: 0 15vw;
 }
 
 li {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: inherit;
+  padding: 1rem;
+  border: solid thin;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
 }
 
 li.low {
@@ -36,7 +55,6 @@ ul div {
   margin-left: 1rem;
 }
 
-
 div.high {
   background-color: red;
 }
@@ -44,3 +62,18 @@ div.high {
 div.low {
   background-color: green;
 }
+
+.checked {
+  text-decoration: line-through;
+}
+
+/* li img {
+height: 1rem;
+margin-right: 1rem;
+}
+
+li button {
+background-color: white;
+
+
+} */
