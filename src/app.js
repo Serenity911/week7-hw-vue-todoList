@@ -22,7 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
       checkItem: function (item) {
         let checkedItem = this.items.find(i => i === item)
         checkedItem.checked = true
-        
+      },
+      deleteItem: function (item) {
+        // let deleteItem = this.items.find(i => i === item)
+        this.items.splice(this.items.indexOf(item), 1)
       }
     }
   })
