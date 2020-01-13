@@ -1,3 +1,12 @@
+h1 {
+  text-align: center;;
+}
+form {
+  border: solid thin;
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
 ul {
   display: flex;
   flex-direction: column;
