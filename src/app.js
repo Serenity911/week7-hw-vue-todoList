@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
     el: "#app",
     data: {
       items: [
-        {name: "Wash dishes",
-        priority: "low"},
         {name: "Mop the floor",
-        priority: "high"}
+        priority: "high"},
+        {name: "Wash dishes",
+        priority: "low"}
       ],
       newToDo: {name: "", priority: ""}
     },
@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
         this.items.push(this.newToDo)
         this.newToDo = {name: "", priority: ""}
       }
-
     }
   })
 });

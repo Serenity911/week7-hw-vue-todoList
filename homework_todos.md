@@ -16,8 +16,8 @@ Use Vue and Webpack to build a solution that looks like this:
 
 ## MVP
 
-- Render a list of todos from an array of strings.  
-- Add the capability to add a new todo to the list.
+V- Render a list of todos from an array of strings.  
+V- Add the capability to add a new todo to the list.
 
 Your todos array would look something like:
 ```js
@@ -28,8 +28,8 @@ todos: [
 
 ## Extensions
 
-- Update the todos array to take in objects with keys of name and priority.
-- Add radio buttons to track the level of priority
+V- Update the todos array to take in objects with keys of name and priority.
+V- Add radio buttons to track the level of priority
 - Give the user visual feedback on what todos are high priority
 
 ## Setup

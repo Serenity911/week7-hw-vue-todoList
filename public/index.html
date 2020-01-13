@@ -17,12 +17,17 @@
       <input type="radio" name="priority" value="high" v-model="newToDo.priority">
       <label for="low">Low:</label>
       <input type="radio" name="priority" value="low" v-model="newToDo.priority">
-      <button type="submit">Add</button>
+      <button>Add</button>
 
       <!-- <button type="submit" @click.prevent="addNewItem">Add</button> -->
     </form>
+    
     <ul>
-      <li v-for="item in items">{{ item.name }}</li>
+      <li v-for="item in items" v-bind:class="item.priority">
+        {{ item.name }}
+        <div v-bind:class="item.priority">
+        </div>
+      </li>
     </ul>
   </div>
 </body>

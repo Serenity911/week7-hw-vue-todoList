@@ -1,0 +1,37 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li.low {
+  color: green;
+}
+
+li.high {
+  color: red;
+
+}
+
+ul div {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100px;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+
+div.high {
+  background-color: red;
+}
+
+div.low {
+  background-color: green;
+}
