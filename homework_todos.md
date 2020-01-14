@@ -30,7 +30,7 @@ todos: [
 
 V- Update the todos array to take in objects with keys of name and priority.
 V- Add radio buttons to track the level of priority
-- Give the user visual feedback on what todos are high priority
+V- Give the user visual feedback on what todos are high priority
 
 ## Setup
 
